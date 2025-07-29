@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Aastha's Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-rose-100 via-fuchsia-100 to-sky-100 text-gray-900 font-sans min-h-screen">
+  <header class="text-center py-10 bg-gradient-to-r from-purple-600 to-pink-600 text-white shadow-xl">
+    <h1 class="text-5xl font-extrabold drop-shadow-lg">Aastha Khandelwal</h1>
+    <h2 class="text-2xl font-semibold mt-3 italic">"Aspiring Web Developer"</h2>
+  </header>
+
+  <nav class="bg-fuchsia-500 text-white py-4 text-center text-lg font-medium shadow-md">
+    <a href="#about" class="px-4 hover:text-yellow-200">About</a>
+    <a href="#skills" class="px-4 hover:text-yellow-200">Skills</a>
+    <a href="#projects" class="px-4 hover:text-yellow-200">Projects</a>
+    <a href="#contacts" class="px-4 hover:text-yellow-200">Contacts</a>
+  </nav>
+
+  <div class="flex justify-center py-10">
+    <img src="https://media.licdn.com/dms/image/v2/D4E03AQHY8A2olay1uA/profile-displayphoto-shrink_400_400/B4EZcvP3geHQAk-/0/1748844379258?e=1755734400&v=beta&t=rli4yCKtSJzp1dcTdOpO6BFZWSA8Tlmt_cDQvH5b1_g" alt="Profile Photo" class="rounded-full w-60 h-60 border-[10px] border-yellow-400 shadow-lg hover:scale-105 transition-transform duration-300">
+  </div>
+
+  <section id="about" class="max-w-5xl mx-auto my-10 bg-white rounded-3xl p-8 shadow-2xl border-l-8 border-pink-400">
+    <h2 class="text-3xl font-bold text-center mb-6 text-purple-700">About Me</h2>
+    <p class="text-lg leading-relaxed mb-6">Hi! I'm Aastha, an enthusiastic IT student with a passion for exploring new tech and ideas. I believe in the power of curiosity, creativity, and continuous learning.</p>
+    <h3 class="text-2xl font-semibold mb-3 text-pink-600">Hobbies</h3>
+    <ul class="list-disc list-inside space-y-2 text-lg">
+      <li>Sketching life</li>
+      <li>Power napping</li>
+      <li>Freestyle dancing</li>
+      <li>Bathroom singing</li>
+    </ul>
+  </section>
+
+  <section id="skills" class="max-w-5xl mx-auto my-10 bg-gradient-to-br from-yellow-100 to-pink-50 rounded-3xl p-8 shadow-2xl border-l-8 border-yellow-400">
+    <h2 class="text-3xl font-bold text-center mb-6 text-purple-700">Skills I Wish to Learn</h2>
+    <div class="overflow-x-auto">
+      <table class="w-full border border-gray-300 rounded-xl text-left text-lg">
+        <thead>
+          <tr class="bg-pink-200">
+            <th class="px-6 py-3 border-b-2 border-gray-300">Skill</th>
+            <th class="px-6 py-3 border-b-2 border-gray-300">Reason</th>
+          </tr>
+        </thead>
+        <tbody class="bg-white">
+          <tr class="hover:bg-pink-50">
+            <td class="px-6 py-4 border-b">JavaScript</td>
+            <td class="px-6 py-4 border-b">To bring my web ideas to life.</td>
+          </tr>
+          <tr class="hover:bg-pink-50">
+            <td class="px-6 py-4 border-b">Linux</td>
+            <td class="px-6 py-4 border-b">Because every coder’s journey should include the terminal</td>
+          </tr>
+          <tr class="hover:bg-pink-50">
+            <td class="px-6 py-4">Communication Skills</td>
+            <td class="px-6 py-4">To present confidently and maybe even pitch a startup one day</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="projects" class="max-w-6xl mx-auto my-10 bg-white rounded-3xl p-8 shadow-2xl border-l-8 border-purple-500">
+    <h2 class="text-3xl font-bold text-center mb-8 text-purple-700">Projects</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="bg-gradient-to-r from-pink-200 to-pink-100 rounded-2xl p-6 shadow-md hover:shadow-xl hover:scale-105 transition-transform">
+        <h3 class="text-xl font-bold text-gray-800">DAV Data Cleaning</h3>
+        <p class="mt-2 text-gray-700">Cleaned and analyzed datasets using Python and Pandas.</p>
+      </div>
+      <div class="bg-gradient-to-r from-purple-200 to-pink-100 rounded-2xl p-6 shadow-md hover:shadow-xl hover:scale-105 transition-transform">
+        <h3 class="text-xl font-bold text-gray-800">Personal Portfolio</h3>
+        <p class="mt-2 text-gray-700">Built using HTML, Tailwind CSS, Flexbox, and Grid.</p>
+      </div>
+      <div class="bg-gradient-to-r from-yellow-200 to-pink-100 rounded-2xl p-6 shadow-md hover:shadow-xl hover:scale-105 transition-transform">
+        <h3 class="text-xl font-bold text-gray-800">Static HTML Page</h3>
+        <p class="mt-2 text-gray-700">Created a simple static page layout for learning purposes.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacts" class="max-w-4xl mx-auto my-10 bg-gradient-to-br from-blue-100 to-white rounded-3xl p-8 shadow-2xl text-center border-l-8 border-blue-300">
+    <h2 class="text-2xl font-bold text-blue-800 mb-4">Let's Connect</h2>
+    <p class="text-lg">Find me on <a href="https://www.linkedin.com/in/aastha-khandelwal-238290313/" target="_blank" class="text-blue-600 hover:underline font-semibold">LinkedIn</a></p>
+  </section>
+</body>
+</html>
